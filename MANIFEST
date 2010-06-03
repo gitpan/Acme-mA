@@ -1,0 +1,7 @@
+Build.PL
+lib/Acme/ǝmɔA.pm
+MANIFEST			This list of files
+t/01.load.t
+t/02.rewrite.t
+t/03.already_acmed.t
+META.yml

@@ -1,0 +1,21 @@
+---
+abstract: 'Turn your perl upside down'
+author:
+  - 'David Leadbeater <dgl@dgl.cx>'
+build_requires:
+  PadWalker: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
+license: wtfpl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Acme-ǝmɔA
+requires:
+  Filter::Simple: 0
+  Text::UpsideDown: 0
+  perl: v5.8.1
+resources:
+  license: ~
+version: 1337
