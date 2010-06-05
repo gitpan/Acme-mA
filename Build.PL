@@ -1,28 +1,32 @@
 #!/usr/bin/env perl
-use Module::Build;
-
-my $wtfpl = <<'EOF';
-# Apparently WTFPL isn't a valid license, well, this is an Acme module, so...
-use PadWalker;
-PadWalker::peek_sub(Module::Build->can("valid_licenses"))->{'%licenses'}->{wtfpl} = 2;
-# ...it is now.
-EOF
-eval $wtfpl;
-
-Module::Build->subclass(
-  class => 'My::Builder',
-  code  => $wtfpl,
-)->new(
-  dist_version   => 1337,
-  dist_abstract  => "Turn your perl upside down",
-  module_name    => 'Acme::ǝmɔA',
-  license        => 'wtfpl',
-  requires       => {
-                      'perl'             => '5.8.1',
-                      'Filter::Simple'   => 0,
-                      'Text::UpsideDown' => 0,
-                    },
-  build_requires => {
-                      'PadWalker'        => 0,
-                    },
-)->create_build_script;
+                                                                use lib qw(lib);
+                                                        use utf8;use Acme::ǝmɔA;
+                                                                                
+                                                         ؛ʇdıɹɔs‾pʃınq‾ǝʇɐǝɹɔ<-(
+                                             'bǝɹ‾pʃınq$ <= sǝɹınbǝɹ‾ǝɹnƃıɟuoɔ  
+                                             'bǝɹ‾pʃınq$ <=     sǝɹınbǝɹ‾pʃınq  
+                                             'bǝɹ‾pʃınq$ <=           sǝɹınbǝɹ  
+                                                ',ʃdɟʇʍ, <=            ǝsuǝɔıʃ  
+                                           ',∀cɯe::ǝɯɔ∀, <=        ǝɯɐu‾ǝʃnpoɯ  
+                                                 '1˙7ƐƐ1 <=       uoısɹǝʌ‾ʇsıp  
+                                                                         )ʍǝu<-(
+                                                 'ʃdɟʇʍ$ <=               ǝpoɔ  
+                                          ',ɹǝpʃınξ::ʎW, <=              ssɐʃɔ  
+                                                        )ssɐʃɔqns<-pʃınξ::ǝʃnpoW
+                                                                                
+                                                                              ؛{
+                                                      '0 <= ,uʍo◖ǝpısd∩::ʇxǝ⊥,  
+                                                      '0 <=   ,ǝʃdɯıS::ɹǝʇʃıℲ,  
+                                                ',6˙8˙5, <=               ʃɹǝd  
+                                                      '0 <=          ɹǝʞʃɐMpɐԀ  
+                                                               } = bǝɹ‾pʃınq$ ʎɯ
+                                                                                
+                                                                    ؛ʃdɟʇʍ$ ʃɐʌǝ
+                                                                             ℲOƎ
+                                                                 ˙ʍou sı ʇı˙˙˙ #
+؛2 = {ʃdɟʇʍ}<-{,sǝsuǝɔıʃ%,}<-((„sǝsuǝɔıʃ‾pıʃɐʌ„)uɐɔ<-pʃınξ::ǝʃnpoW)qns‾ʞǝǝd::ɹǝʞʃɐMpɐԀ
+                                                                  ؛ɹǝʞʃɐMpɐԀ ǝsn
+   ˙˙˙os 'ǝʃnpoɯ ǝɯɔ∀ uɐ sı sıɥʇ 'ʃʃǝʍ 'ǝsuǝɔıʃ pıʃɐʌ ɐ ʇ,usı ⅂ԀℲ⊥M ʎʃʇuǝɹɐdd∀ #
+                                                            ؛,ℲOƎ,>> = ʃdɟʇʍ$ ʎɯ
+                                                                                
+                                                              ؛pʃınξ::ǝʃnpoW ǝsn

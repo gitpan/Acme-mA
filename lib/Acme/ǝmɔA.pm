@@ -8,9 +8,9 @@ use Filter::Simple;
 
 # Use a known line for the header to tell us if the file has already been
 # altered.
-use constant HEADER_TEXT => "use utf8;use Acme::ǝmɔA;";
-use constant WIDTH => 80;
-use constant HEADER => " " x (WIDTH-length HEADER_TEXT) . HEADER_TEXT;
+use constant "HEADER_TEXT" => "use utf8;use Acme::ǝmɔA;";
+use constant "WIDTH" => 80;
+use constant "HEADER" => " " x (WIDTH-length HEADER_TEXT) . HEADER_TEXT;
 
 # Filter::Simple calls this, does all the hard work.
 FILTER {
@@ -79,7 +79,7 @@ __END__
 
 =head1 NAME
 
-Acme::ǝmɔA
+Acme::ǝmɔA - Turn your perl upside down
 
 =head1 SYNOPSIS
 

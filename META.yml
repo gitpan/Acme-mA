@@ -3,9 +3,17 @@ abstract: 'Turn your perl upside down'
 author:
   - 'David Leadbeater <dgl@dgl.cx>'
 build_requires:
-  PadWalker: 0
-configure_requires:
+  Filter::Simple: 0
   Module::Build: 0.36
+  PadWalker: 0
+  Text::UpsideDown: 0
+  perl: v5.8.9
+configure_requires:
+  Filter::Simple: 0
+  Module::Build: 0.36
+  PadWalker: 0
+  Text::UpsideDown: 0
+  perl: v5.8.9
 generated_by: 'Module::Build version 0.3603'
 license: wtfpl
 meta-spec:
@@ -14,8 +22,10 @@ meta-spec:
 name: Acme-ǝmɔA
 requires:
   Filter::Simple: 0
+  Module::Build: 0.36
+  PadWalker: 0
   Text::UpsideDown: 0
-  perl: v5.8.1
+  perl: v5.8.9
 resources:
   license: ~
-version: 1337
+version: 1337.1

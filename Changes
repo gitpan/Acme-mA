@@ -1,0 +1,6 @@
+1337.1
+- Before perl 5.8.9 you helpfully get a "Unknown error" when compiling, require 5.8.9.
+- Add configure_requires for PadWalker too.
+
+1337
+- Initial version
